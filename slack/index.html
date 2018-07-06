@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<meta name="author" content="(Arvind Subramaniam)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/default.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<section>
+<section id="slide-org15e0d28">
+<h1 id="org15e0d28">Slack for Basic Sciences Division</h1>
+<ul>
+<li>What is Slack?</li>
+<li>How do we use Slack?</li>
+<li>How will trainees benefit from Slack?</li>
+<li>Why use Slack?</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org1862528">
+<h1 id="org1862528">What is Slack?</h1>
+<ul>
+<li>Modern version of a mailing list</li>
+<li>Access through a browser at <a href="https://basicsciencefredhutch.slack.com">https://basicsciencefredhutch.slack.com</a></li>
+<li>Also available as desktop and mobile phone apps</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org556c9a8">
+<h1 id="org556c9a8">How do we use Slack?</h1>
+</section>
+</section>
+<section>
+<section id="slide-orge1231d1">
+<h1 id="orge1231d1">1/3 Seminar Announcements</h1>
+
+<div class="figure">
+<p><img src="img/seminar_announcement.png" alt="seminar_announcement.png" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org88072eb">
+<h1 id="org88072eb">2/3 Funding Opportunities</h1>
+
+<div class="figure">
+<p><img src="img/grant_opportunities.png" alt="grant_opportunities.png" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org4e3a225">
+<h1 id="org4e3a225">3/3 One-on-one discussion</h1>
+
+<div class="figure">
+<p><img src="img/one_on_one_chat.png" alt="one_on_one_chat.png" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orgaf8f3cb">
+<h1 id="orgaf8f3cb">How will trainees benefit from Slack?</h1>
+</section>
+</section>
+<section>
+<section id="slide-org8e80dfe">
+<h1 id="org8e80dfe">1/3 Seminar Lunch Signups</h1>
+
+<div class="figure">
+<p><img src="img/lunch_invitation.png" alt="lunch_invitation.png" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org46981fc">
+<h1 id="org46981fc">2/3 New Division Affiliates</h1>
+
+<div class="figure">
+<p><img src="img/new_member_intro.png" alt="new_member_intro.png" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org6a19fba">
+<h1 id="org6a19fba">3/3 Fun Activities</h1>
+
+<div class="figure">
+<p><img src="img/fun_activities.png" alt="fun_activities.png" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org1dd2499">
+<h1 id="org1dd2499">Why use Slack?</h1>
+<ul>
+<li>Less emails</li>
+<li>Reduces repetition</li>
+<li>Division culture is transparent to new affiliates/trainees</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgafe3ca9">
+<h1 id="orgafe3ca9">In practice</h1>
+<ul>
+<li>No change if you prefer just emails</li>
+<li>Test with trainees and affiliates starting August</li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/lib/js/head.min.js"></script>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: false,
+progress: true,
+history: true,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
